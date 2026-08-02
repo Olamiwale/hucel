@@ -17,16 +17,11 @@ export default function CTABanner() {
           <div className="relative mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="#get-started"
-              className="rounded-lg bg-purple-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-purple-500"
+              className="rounded-lg bg-[#4A006A] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#a836d9]"
             >
               Get Started Free
             </a>
-            <a
-              href="#contact"
-              className="rounded-lg border border-slate-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
-            >
-              Talk to Sales
-            </a>
+          
           </div>
         </div>
       </div>

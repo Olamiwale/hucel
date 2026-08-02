@@ -19,6 +19,23 @@ const testimonials = [
   },
   {
     quote:
+      "The mentorship program completely changed how I approach leadership. I went from managing tasks to genuinely developing my team.",
+    name: "Amara Chen",
+    role: "VP of Operations, Brightpath",
+    avatarColor: "bg-purple-200",
+    initials: "AC",
+  },
+  {
+    quote:
+      "We filled three senior roles in under a month. The recruitment solution understood exactly what our culture needed, not just the job description.",
+    name: "David Okafor",
+    role: "Head of Talent, Meridian",
+    avatarColor: "bg-emerald-200",
+    initials: "DO",
+  },
+  
+  {
+    quote:
       "Our leadership team finally speaks the same language. The executive training was practical, not just theory-heavy slides.",
     name: "Priya Nair",
     role: "CEO, Solace Group",
@@ -32,7 +49,7 @@ export default function Testimonials() {
     <section className="bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-wide text-purple-600">
+          <span className="text-sm font-semibold uppercase tracking-wide text-[#4A006A]">
             Testimonials
           </span>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">

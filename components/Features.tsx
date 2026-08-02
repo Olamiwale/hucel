@@ -1,9 +1,27 @@
 
 "use client";
 
-import { Users, GraduationCap, HeartHandshake, Briefcase } from "lucide-react";
+import { Users, GraduationCap, HeartHandshake, Briefcase, type LucideIcon } from "lucide-react";
 
-const features = [
+interface Feature {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  position: string;
+  iconBg: string;
+  iconColor: string;
+}
+
+interface FeatureCardProps {
+  Icon: LucideIcon;
+  title: string;
+  description: string;
+  position: string;
+  iconBg: string;
+  iconColor: string;
+}
+
+const features: Feature[] = [
   {
     icon: Users,
     title: "Mentorship",
@@ -38,7 +56,7 @@ const features = [
   },
 ];
 
-function FeatureCard({ icon: Icon, title, description, position, iconBg, iconColor }) {
+function FeatureCard({ Icon, title, description, position, iconBg, iconColor }: FeatureCardProps) {
   return (
     <div
       className={`absolute ${position} hidden w-56 rounded-2xl border border-slate-100 bg-white p-4 shadow-lg shadow-slate-900/5 sm:block`}
@@ -60,7 +78,15 @@ export default function Features() {
   return (
     <>
       {features.map((feature) => (
-        <FeatureCard key={feature.title} {...feature} />
+        <FeatureCard
+          key={feature.title}
+          Icon={feature.icon}
+          title={feature.title}
+          description={feature.description}
+          position={feature.position}
+          iconBg={feature.iconBg}
+          iconColor={feature.iconColor}
+        />
       ))}
     </>
   );
