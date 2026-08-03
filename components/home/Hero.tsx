@@ -15,7 +15,7 @@ export default function Hero() {
             Empowering Leaders. Building Better Futures
           </span>
 
-          <h1 className="mt-8 text-5xl font-extrabold leading-tight tracking-tight text-slate-900 lg:text-7xl">
+          <h1 className="mt-8 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 lg:text-7xl">
             Develop Leaders
             <br />
             Build Stronger Teams
