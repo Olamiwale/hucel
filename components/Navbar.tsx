@@ -29,6 +29,7 @@ const navLinks: NavLink[] = [
  
 
   { label: "Become a Member", href: "#" },
+  { label: "About", href: "/about"},
 ];
 
 
