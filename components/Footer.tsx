@@ -13,12 +13,12 @@ export default function Footer() {
     <footer className="bg-slate-900">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-6">
-          {/* Brand */}
+          
           <div className="col-span-2">
-            <span className="text-xl font-bold text-white">Growthly</span>
+            <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-slate-400">
               Helping people and businesses grow through mentorship, training,
-              team building, and recruitment — all in one place.
+              team building, and recruitment all in one place.
             </p>
             <div className="mt-5 flex gap-4">
               <a href="#" aria-label="Twitter" className="text-slate-400 hover:text-white">
@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Link columns */}
+          
           {Object.entries(footerLinks).map(([heading, links]) => (
             <div key={heading}>
               <h3 className="text-sm font-semibold text-white">{heading}</h3>
@@ -55,7 +55,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-slate-800 pt-8">
           <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} Growthly. All rights reserved.
+            © {new Date().getFullYear()} Hucel Africa. All rights reserved.
           </p>
         </div>
       </div>
