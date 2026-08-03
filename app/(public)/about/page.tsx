@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { JSX } from "react";
 import Image from "next/image";
+import HowWeOperate from "@/components/home/HowWeOperate";
 
 export const metadata: Metadata = {
   title: "About Us | How We Started",
@@ -106,7 +107,9 @@ export default function AboutPage(): JSX.Element {
             </a>
           ))}
         </div>
+        <HowWeOperate />
       </section>
+
     </main>
   );
                           }
