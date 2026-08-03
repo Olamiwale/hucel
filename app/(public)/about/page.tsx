@@ -31,8 +31,8 @@ const storyLinks: StoryLink[] = [
 
 export default function AboutPage(): JSX.Element {
   return (
-    <main className="bg-white">
-      {/* Hero */}
+    <main className="bg-white mt-10">
+      
       <section className="px-6 pt-16 pb-10 sm:pt-24 sm:pb-14 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="font-serif text-4xl leading-tight text-slate-900 sm:text-6xl">
