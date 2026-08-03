@@ -41,9 +41,7 @@ export default function AboutPage(): JSX.Element {
             into <em className="text-purple-700">Opportunity</em>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-base text-slate-500 sm:text-lg">
-            What began as a small mentorship circle has grown into a platform
-            connecting people and businesses with the growth they're looking
-            for.
+            
           </p>
         </div>
 
@@ -76,23 +74,7 @@ export default function AboutPage(): JSX.Element {
         </div>
       </section>
 
-      {/* Origin story — faded emphasis statement */}
-      <section id="origin" className="px-6 py-20 sm:py-28 lg:px-8">
-        <div className="mx-auto max-w-4xl">
-          <p className="text-center font-serif text-3xl leading-snug sm:text-5xl sm:leading-snug">
-            <span className="text-slate-900">
-              It started with three people, one spreadsheet, and a shared
-              belief that{" "}
-            </span>
-            <span className="text-slate-400">
-              growth shouldn't be something anyone figures out alone. Today
-              that same belief connects thousands of professionals with the
-              mentors, training, and opportunities they need to move
-              forward.
-            </span>
-          </p>
-        </div>
-      </section>
+      
 
       {/* Story links / stats row */}
       <section id="impact" className="border-t border-slate-100 px-6 py-10 lg:px-8">
