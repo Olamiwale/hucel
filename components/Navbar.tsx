@@ -16,19 +16,8 @@ interface NavLink {
 
 const navLinks: NavLink[] = [
   { label: "Home", href: "#" },
- 
-  {
-    label: "Solutions",
-    href: "#",
-    children: [
-      { label: "For Mentors", href: "#" },
-      { label: "For Organizations", href: "#" },
-      { label: "For Recruiters", href: "#" },
-    ],
-  },
- 
-
-  { label: "Become a Member", href: "#" },
+  { label: "Solutions", href: "/solutions",},
+  { label: "Join as a Mentor", href: "/join-as-a-mentor" },
   { label: "About", href: "/about"},
 ];
 
