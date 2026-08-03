@@ -49,7 +49,7 @@ const tracks: OperatingTrack[] = [
 
 export default function HowWeOperate(){
   return (
-    <section className="border-t border-slate-100 bg-slate-50 px-6 py-20 sm:py-28 lg:px-8">
+    <section className="px-6 py-20 sm:py-28 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wide text-purple-600">
@@ -59,9 +59,8 @@ export default function HowWeOperate(){
             One Platform, Three Ways We Show Up
           </h2>
           <p className="mt-4 text-base text-slate-600">
-            Mentors, organizations, and recruiters each work with us
-            differently — here's what that actually looks like on each
-            track.
+            Mentors, organizations, and recruiters work with us
+            differently
           </p>
         </div>
 
