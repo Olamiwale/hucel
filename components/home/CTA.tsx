@@ -7,7 +7,7 @@ export default function CTABanner() {
             className="pointer-events-none absolute -top-24 right-0 h-64 w-64 rounded-full bg-purple-600/30 blur-3xl"
             aria-hidden="true"
           />
-          <h2 className="relative text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="relative text-2xl font-bold tracking-tight text-white sm:text-4xl">
             Ready to Grow Your People and Business?
           </h2>
           <p className="relative mx-auto mt-4 max-w-xl text-base text-slate-300">
