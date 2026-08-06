@@ -110,7 +110,7 @@ export default function MentorApplicationPage() {
           <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
             Help Someone Get to Where You Already Are
           </h1>
-          <p className="mt-5 text-lg leading-relaxed text-slate-600">
+          <p className="mt-5 text-sm leading-relaxed text-slate-600">
             Mentoring here is a real, ongoing relationship — not a one-off
             call. Here's what it actually involves, and how to apply.
           </p>
