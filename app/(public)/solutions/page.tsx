@@ -105,7 +105,7 @@ export default function Solutions() {
         <div className="mx-auto font-serif max-w-3xl text-center">
          
          
-          <h1 className="main-heading">
+          <h1 className="main-heading sm:text-3xl">
             Solutions Built Around How 
             <span className='text-purple-700'> You Grow </span>
            
