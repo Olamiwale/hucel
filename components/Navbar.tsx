@@ -97,7 +97,10 @@ export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 z-50 w-full border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
+
+        <a href="/">
+        <img src="/com-logo1.png" alt="Logo" className="h-20 w-auto" /> 
+        </a>
 
         <nav className="hidden lg:flex lg:items-center lg:gap-7">
           {navLinks.map((link) =>

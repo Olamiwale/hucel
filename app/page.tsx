@@ -4,12 +4,13 @@ import Mentors from "@/components/home/Mentors";
 import Testimonials from "@/components/home/Testimonials";
 import CTA from "@/components/home/CTA";
 import FAQ from "@/components/home/FAQ";
-
+import TrustedCompanies from "@/components/home/TrustedCompanies";
 export default function Home() {
   return (
     <div>
 
       <Hero />
+      <TrustedCompanies />
       <Solutions />
       <Mentors />
       <Testimonials />

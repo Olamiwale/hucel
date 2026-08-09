@@ -53,7 +53,7 @@ export default function Solutions() {
           </h2>
         </div>
 
-        {/* Cards */}
+     
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {solutions.map(({ icon: Icon, iconBg, iconColor, linkColor, title, description }) => (
             <div
@@ -69,8 +69,7 @@ export default function Solutions() {
 
               <a
                 href="#"
-                className={`mt-4 inline-flex items-center gap-1.5 text-sm font-medium ${linkColor}`}
-              >
+                className={`mt-4 inline-flex items-center gap-1.5 text-sm font-medium ${linkColor}`} >
                 Learn more
                 <ArrowRight className="h-4 w-4" />
               </a>

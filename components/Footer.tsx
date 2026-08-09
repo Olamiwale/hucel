@@ -2,20 +2,19 @@ import { SiX, SiInstagram } from "react-icons/si";
 import {Linkedin} from "lucide-react";
 
 const footerLinks = {
-  Product: ["Mentorship", "Executive Training", "Team Building", "Recruitment"],
-  Company: ["About Us", "Careers", "Blog", "Contact"],
-  Resources: ["Help Center", "Guides", "Case Studies", "Partners"],
-  Legal: ["Privacy Policy", "Terms of Service", "Cookie Policy"],
+  Solutions: ["Mentorship", "Executive Training", "Recruitment"],
+  Company: ["About Us", "Contact"],
+  // Legal: ["Privacy Policy", "Terms of Service", "Cookie Policy"],
 };
 
 export default function Footer() {
   return (
     <footer className="bg-slate-900">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-6">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           
           <div className="col-span-2">
-            <img src="/logo.png" alt="Logo" className="h-20 w-auto" />
+            <img src="/com-logo2.png" alt="Logo" className="h-25 w-auto" />
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-slate-400">
               Helping people and businesses grow through mentorship, training,
               team building, and recruitment all in one place.

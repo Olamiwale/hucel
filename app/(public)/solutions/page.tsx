@@ -55,7 +55,7 @@ const sections: SolutionSection[] = [
     ],
     ctaLabel: "Apply to Mentor",
     ctaHref: "#",
-    image: "/hero-img.png",
+    image: "/solu-leadership.png",
     imageAlt: "A mentor and mentee in conversation over coffee",
   },
   {
@@ -73,7 +73,7 @@ const sections: SolutionSection[] = [
     ],
     ctaLabel: "Talk to Our Team",
     ctaHref: "#",
-    image:"/hero-img.png",
+    image:"/solu-leadership.png",
     imageAlt: "A team collaborating around a whiteboard in a workshop",
     reverse: true,
   },
@@ -92,26 +92,27 @@ const sections: SolutionSection[] = [
     ],
     ctaLabel: "Start Hiring",
     ctaHref: "#",
-    image: "/hero-img.png",
+    image: "/solu-recruitment.png",
     imageAlt: "A recruiter reviewing candidates with a hiring manager",
   },
 ];
 
 export default function Solutions() {
   return (
-    <main className="bg-white">
-      {/* Hero */}
+    <main className="bg-white mt-10">
+   
       <section className="px-6 pt-16 pb-12 sm:pt-24 sm:pb-16 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-wide text-purple-600">
-            Solutions
-          </span>
-          <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
-            Solutions Built Around How You Grow
+        <div className="mx-auto font-serif max-w-3xl text-center">
+         
+         
+          <h1 className="main-heading">
+            Solutions Built Around How 
+            <span className='text-purple-700'> You Grow </span>
+           
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-slate-600">
             Whether you're mentoring, building a team, or hiring one, the way
-            we work with you is shaped by what you're actually trying to do —
+            we work with you is shaped by what you're actually trying to do 
             not a one-size-fits-all product.
           </p>
         </div>
