@@ -8,5 +8,5 @@
 
 
 @utility main-heading {
-  @apply font-serif text-4xl leading-tight text-slate-900 sm:text-6xl;
+  @apply font-serif text-4xl leading-tight text-slate-900 sm:text-5xl;
 }

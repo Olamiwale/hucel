@@ -105,9 +105,15 @@ export default function Solutions() {
         <div className="mx-auto font-serif max-w-3xl text-center">
          
          
-          <h1 className="main-heading sm:text-3xl">
-            Solutions Built Around How 
-            <span className='text-purple-700'> You Grow </span>
+          <h1 className="main-heading">
+            Solutions Built 
+            
+            <em> Around</em>  
+
+            <br/>
+            <span className='text-purple-700'>How 
+              
+              <em> You Grow</em></span>
            
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-slate-600">
